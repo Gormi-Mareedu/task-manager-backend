@@ -66,22 +66,39 @@ DELETE	/api/tasks/:id	    Delete a task
 ### 📂 Folder Structure
 
 task-manager-backend/
+
 ├── controllers/
+
 │   ├── authController.js
+
 │   └── taskController.js
+
 ├── models/
+
 │   ├── User.js
+
 │   └── Task.js
+
 ├── routes/
+
 │   ├── authRoutes.js
+
 │   └── taskRoutes.js
+
 ├── middleware/
+
 │   └── authMiddleware.js
+
 ├── config/
+
 │   └── db.js
+
 ├── .env
+
 ├── server.js
+
 ├── package.json
+
 └── README.md
 
 ### 🌎 Deployment
